@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page-container {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+}
+
+.product-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-list-item {
+  padding: 5px;
+}
+
+.header {
+  text-align: center;
+  background-color: #222;
+  height: 160px;
+  padding: 20px;
+  color: white;
+}
+
+.header-logo {
+  animation: header-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes header-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-title {
+  font-size: 1.5em;
+}
+
+.header-link {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.header-link-active {
+  border-bottom: #ebebeb solid 2px;
+}
+
+.product-list-item a {
+  text-decoration: none;
+}
+
+.product-reviews {
+  list-style: none;
+  padding: 0px;
+}
+.product-reviews .product-reviews-item {
+  display: block;
+  padding: 8px 0px;
+}
+
+
+.tabs {
+  list-style: none;
+  padding: 0;
+}
+.tabs li {
+  display: inline-block;
+  padding: 5px;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+.tabs li:focus {
+  outline: none;
+}
+.tabs li.active {
+  border-bottom: #222 solid 2px;
+}
